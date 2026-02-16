@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
 
+  <title>Portafolio Diana Ramírez Modelaje</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FAVICONS (COMPATIBLE CON CHROME, OPERA, SAFARI, MOBILE) -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+  <link rel="apple-touch-icon" href="favicon-192.png">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+    }
+
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+
+  <!-- REDIRECCIÓN AUTOMÁTICA EN MÓVIL -->
+  <script>
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.replace("portafolio-diana-ramirez-modelaje.pdf");
+    }
+  </script>
+</head>
+
+<body>
+  <!-- DESKTOP: PDF FULLSCREEN -->
+  <iframe src="portafolio-diana-ramirez-modelaje.pdf"></iframe>
+</body>
+</html>
